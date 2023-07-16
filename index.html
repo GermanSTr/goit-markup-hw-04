@@ -75,7 +75,9 @@
       <section class="quote">
         <div class="container quote-container">
           <h1 class="quote-title">Effective Solutions for Your Business</h1>
-          <button class="quote-button" type="button">Order Service</button>
+          <button class="quote-button" type="button" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
       <!--advantages-->
@@ -571,14 +573,15 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop">
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button type="button" class="modal-close-btn">
+        <button type="button" class="modal-close-btn" data-modal-close>
           <svg class="modal-icon" width="8px" height="8px">
             <use href="./images/icons.svg#icon-close-black"></use>
           </svg>
         </button>
       </div>
     </div>
+    <script src="/js/modal.js"></script>
   </body>
 </html>
