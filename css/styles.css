@@ -545,11 +545,11 @@ button {
   width: calc((100% - 48px) / 3);
 }
 
-.book-item:hover .book-text {
+.book-item-link:hover .book-text {
   transform: translateY(0%);
 }
 
-.book-item:focus .book-text {
+.book-item-link:focus .book-text {
   transform: translateY(0%);
 }
 
